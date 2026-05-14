@@ -174,6 +174,15 @@ div[data-testid="stSelectbox"] label,
 div[data-testid="stNumberInput"] label {{
     color: {TEXT_MUT} !important; font-size: 0.78rem !important;
 }}
+
+/* Force Plotly axis labels dark on light theme */
+.js-plotly-plot .plotly .xtick text,
+.js-plotly-plot .plotly .ytick text,
+.js-plotly-plot .plotly .g-xtitle text,
+.js-plotly-plot .plotly .g-ytitle text {{
+    fill: #0f172a !important;
+    font-size: 12px !important;
+}}
 </style>
 """, unsafe_allow_html=True)
 
