@@ -1,11 +1,4 @@
 ---
-title: SegmentIQ
-emoji: 📊
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
 python_version: "3.11"
 ---
 
