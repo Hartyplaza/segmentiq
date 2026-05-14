@@ -1,0 +1,38 @@
+{
+  "n_clusters": 2,
+  "silhouette_score": 0.4386,
+  "davies_bouldin": 0.8727,
+  "segment_map": {
+    "1": "Champions",
+    "0": "Lapsed Customers"
+  },
+  "feature_cols": [
+    "log_Recency",
+    "log_Frequency",
+    "log_Monetary"
+  ],
+  "segment_colors": {
+    "Champions": "#059669",
+    "Loyal Customers": "#2563eb",
+    "At-Risk Customers": "#d97706",
+    "Lost Customers": "#dc2626"
+  },
+  "cluster_profile": [
+    {
+      "Cluster": 0,
+      "Count": 3558,
+      "Recency": 299.65,
+      "Frequency": 2.1,
+      "Monetary": 614.34,
+      "Pct_Customers": 60.5
+    },
+    {
+      "Cluster": 1,
+      "Count": 2320,
+      "Recency": 50.56,
+      "Frequency": 12.72,
+      "Monetary": 6546.97,
+      "Pct_Customers": 39.5
+    }
+  ]
+}

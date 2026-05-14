@@ -1,0 +1,7 @@
+{
+  "feature_cols": [
+    "log_Recency",
+    "log_Frequency",
+    "log_Monetary"
+  ]
+}

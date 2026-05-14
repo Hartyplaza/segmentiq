@@ -264,10 +264,11 @@ with st.sidebar:
 # PAGE 1 — OVERVIEW
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "Overview":
+    n_customers = len(rfm) if data_loaded else 0
     st.markdown(f"""
     <div class="section-header">
         <p class="section-title">Customer Segmentation Dashboard</p>
-        <p class="section-sub">RFM-based segmentation of {len(rfm):,} customers
+        <p class="section-sub">RFM-based segmentation of {n_customers:,} customers
         using K-Means clustering</p>
     </div>""", unsafe_allow_html=True)
 
