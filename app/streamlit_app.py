@@ -200,11 +200,16 @@ def pcfg(h=300, bgcolor=BG_CARD):
         paper_bgcolor=bgcolor, plot_bgcolor=BG_CARD2,
         font=dict(color=TEXT_PRI, family="Inter"), height=h,
         margin=dict(t=30, b=30, l=10, r=10),
-        xaxis=dict(gridcolor=BORDER, zerolinecolor=BORDER,
-                   color=TEXT_MUT, gridwidth=0.5),
-        yaxis=dict(gridcolor=BORDER, zerolinecolor=BORDER,
-                   color=TEXT_MUT, gridwidth=0.5),
-        legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color=TEXT_MUT)),
+        xaxis=dict(gridcolor=BORDER, zerolinecolor=BORDER2,
+                   color=TEXT_PRI, gridwidth=0.5,
+                   tickfont=dict(color=TEXT_PRI, size=11),
+                   title_font=dict(color=TEXT_HEAD, size=12)),
+        yaxis=dict(gridcolor=BORDER, zerolinecolor=BORDER2,
+                   color=TEXT_PRI, gridwidth=0.5,
+                   tickfont=dict(color=TEXT_PRI, size=11),
+                   title_font=dict(color=TEXT_HEAD, size=12)),
+        legend=dict(bgcolor="rgba(0,0,0,0)",
+                    font=dict(color=TEXT_PRI, size=11)),
     )
 
 
